@@ -452,7 +452,7 @@ awsConfig:
   assumeRoleDuration: ""
   efsBackupVaultName: "k10vault"
 
-excludedApps: ["kube-system", "kube-ingress", "kube-node-lease", "kube-public"]
+excludedApps: ["kube-system", "kube-ingress", "kube-node-lease", "kube-public", "cattle-dashboards", "cattle-fleet-clusters-system", "cattle-fleet-local-system", "cattle-fleet-system", "cattle-global-data", "cattle-global-nt", "cattle-provisioning-capi-system", "cattle-impersonation-system", "fleet-default", "fleet-local", ""]
 
 grafana:
   enabled: true
